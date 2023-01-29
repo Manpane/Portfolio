@@ -1,0 +1,33 @@
+:root{
+    /* Main theme */
+    --theme-primary-color:rgb(13, 13, 13);
+    --theme-secondary-color:rgb(50, 50, 50);
+
+    --nav-bg:rgb(35, 30, 30);
+    --body-bg:rgb(13, 13, 13);
+
+
+    /* Nav Styles */
+    --nav-icon-width:30px;
+    --nav-width:calc(var(--nav-icon-width)*3);
+    --nav-item-bg:transparent;
+    --nav-item-fg:white;
+    --nav-item-hovered-fg:rgb(225, 224, 224);
+    --nav-item-hovered-letter-spacing:3px;
+    --nav-item-hovered-bg:rgb(50, 50, 50);
+    --nav-current-bg:rgba(13, 13, 13,0.3);
+
+    
+
+    /* Button styles */
+    --btn-bg: transparent;
+    --btn-bg-image: none;
+    --btn-border-color:rgb(212, 246, 223);
+    --btn-border-top-right-radius: 50%;
+    --btn-border-top-left-radius: 50%;
+    --btn-border-bottom-right-radius: 50%;
+    --btn-border-bottom-left-radius: 50%;
+    --btn-border-width: 2px;
+    --btn-border-type: solid;
+    --btn-fg : var(--btn-border-color);
+}

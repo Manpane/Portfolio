@@ -1,0 +1,51 @@
+@keyframes slide-from-left {
+    from{
+        margin-left: -100%;
+    }
+    to{
+        margin-left: 0px;
+    }
+}
+@keyframes slide-to-left-nav {
+    from{
+        margin-left: 0px;
+        display: flex;
+    }
+    to{
+        margin-left: -100%;
+        display: none;
+    }
+}
+@keyframes slide-to-right {
+    from{
+        margin-right: 0px;
+    }
+    to{
+        margin-right: -100%;
+    }
+}
+@keyframes slide-from-right {
+    from{
+        margin-right: -100%;
+    }
+    to{
+        margin-left: 0%;
+    }
+}
+@keyframes fade-in-nav-hover-text {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 0.8;
+    }
+}
+
+@keyframes fade-in {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
