@@ -99,7 +99,11 @@ nav .nav-item-icon{
     font-weight: bold;
     animation: fade-in-nav-hover-text 1s;
 }
-.nav-home:hover .nav-item-text{
+.nav-item:hover .nav-item-text{
+    display: flex;
+}
+
+/* .nav-home:hover .nav-item-text{
     display: flex;
 }
 .nav-about:hover .nav-item-text{
@@ -113,12 +117,11 @@ nav .nav-item-icon{
 }
 .nav-references:hover .nav-item-text{
     display: flex;
-}
+} */
 
 .current-page{
     background-color: var(--nav-current-bg);
     box-shadow: 0px 0px 2px var(--nav-item-fg);
-    
 }
 .current-page .nav-item-icon{
     transform: rotate(15deg);
@@ -183,7 +186,7 @@ nav .nav-item-icon{
         left: 0px;
         top: 0px;
     }
-    .nav-icem:hover .nav-item-text{
+    .nav-item:hover .nav-item-text{
         display: none;
     }
 }
