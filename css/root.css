@@ -18,17 +18,19 @@
     --nav-current-bg:rgba(13, 13, 13,0.3);
 
     
-    --content-title-bg : rgb(0, 16, 52);
-    --content-title-fg : rgba(255, 255, 255, 0.9);
+    --content-title-bg : rgba(128, 128, 128, 0.88);
+    --content-title-fg : rgb(255, 255, 255);
+
+    --content-normal-font-size: 1rem;
 
     /* Button styles */
     --btn-bg: transparent;
     --btn-bg-image: none;
     --btn-border-color:rgb(212, 246, 223);
-    --btn-border-top-right-radius: 50%;
-    --btn-border-top-left-radius: 50%;
-    --btn-border-bottom-right-radius: 50%;
-    --btn-border-bottom-left-radius: 50%;
+    --btn-border-top-right-radius: 5px;
+    --btn-border-top-left-radius: 5px;
+    --btn-border-bottom-right-radius: 5px;
+    --btn-border-bottom-left-radius: 5px;
     --btn-border-width: 2px;
     --btn-border-type: solid;
     --btn-fg : var(--btn-border-color);

@@ -1,0 +1,81 @@
+.about-feed{
+    margin-bottom: 10px;
+}
+.about-feed .about-header{
+    font-size: 1.9em;
+    color: #bbeecc;
+    border-radius: 5%;
+    display: inline-block;
+    padding-left: 1.1%;
+    padding-right: 1.1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.3%;
+    margin-bottom: 2px;
+    font-weight: 200;
+    border:1px ridge rgba(200,200,200,1);
+    cursor: pointer;
+}
+.about-feed .about-description{
+    margin-top: 1%;
+    font-size: 1.4em;
+}
+.about-feed .about-skills-header{
+    font-size: 1.6em;
+    margin: 0;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    font-weight: bold;
+    padding : 1.3% 3%;
+    font-weight: 150;
+    border: 3px ridge rgba(200,200,200,1);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.skill{
+    font-size: 1.2em;
+    padding: 15px;
+    border-radius: 10px;
+    border-width: 2px;
+    display: inline-block;
+    margin : 5px;
+    border-style: solid;
+    transition: all 200ms;
+    cursor: pointer;
+}
+.skill:hover{
+    background-color: rgba(200, 200, 200, 1);
+    border-color: rgba(10,10,10,0);
+    color: black;
+}
+.skill a{
+    text-decoration:none;
+    color: rgb(201, 201, 201);
+}
+.skill:hover > a{
+    color: black;
+}
+
+.education-item{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.education-item .course{
+    font-size: 1.5em
+}
+.education-item .institution{
+    font-size: 1.1em;
+    font-style: italic;
+    color: rgb(118, 180, 232);
+    text-decoration: none;
+}
+.education-item .institution::before{
+    content: "at ";
+    font-size: 1em;
+    color: rgb(197, 197, 197);
+    font-style: oblique;
+    font-weight: bold;
+}

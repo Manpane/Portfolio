@@ -1,14 +1,34 @@
 nav = document.querySelector("nav")
 hamburger = document.querySelector(".hamburger");
-hamburger.addEventListener("click",e=>{
+
+function closeNav(){
+    nav.classList.add("nav-hidden");
+    nav.classList.remove("nav-shown");
+}
+function openNav(){
+    nav.classList.remove("nav-hidden");
+    nav.classList.add("nav-shown");
+}
+function toggleHamburger(){
     hamburger.classList.toggle("hamclosed");
+}
+function toggleNav(){
+    toggleHamburger()
     if (nav.classList.contains("nav-hidden")){
-        nav.classList.remove("nav-hidden");
-        nav.classList.add("nav-shown");
+        openNav()
     }
     else{
-        nav.classList.add("nav-hidden");
-        nav.classList.remove("nav-shown");
+        closeNav()
+    }
+}
+
+hamburger.addEventListener("click",e=>{
+    toggleNav()
+})
+page.addEventListener("click",e=>{
+    if (nav.classList.contains("nav-shown")){
+        closeNav();
+        toggleHamburger();
     }
 })
 page = document.getElementById("page")
@@ -33,3 +53,11 @@ for(let i = 0;i<total_particles;i++){
     new_particle.setAttribute("class","particle")
     document.body.appendChild(randomizeParticle(new_particle));
 }
+
+
+window.addEventListener("resize",e=>{
+    particles = document.getElementsByClassName("particle");
+    for(let particle of particles){
+        randomizeParticle(particle);
+    }
+})

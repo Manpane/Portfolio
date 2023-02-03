@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,6 +14,7 @@
 
     <title>Manoj Neupane</title>
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/about.css">
 </head>
 
 <body>
@@ -56,15 +56,61 @@
     </nav>
     <div id="page" class="flex-column">
         <div id="about" class="content">
-            <h1 class="page-title">
+            <h1 class="content-title">About</h1>
+            <div class="about-feed">
+                <p class="about-description">
+                    Hello there! My name is Manoj Neupane and I am a 
+                    <span id="age-placeholder">NAN</span> year old guy who loves programming. 
+                    I enjoy creating applications and websites. I am from Nepal.
+                </p>
+                <h4 class="about-skills-header">My Education</h4>
+                <div class="education-container flex-column">
+                    <div class="education-item flex-column">
+                        <span class="course">+2 Management with Computer Science </span>
+                        <a class="institution" href="https://timeline.edu.np/" target="_blank"><i>Timeline School</i></a>
+                    </div>
+                    <div class="education-item flex-column">
+                        <span class="course">Bsc (Hons) with Computer Science </span>
+                        <a class="institution" href="https://heraldcollege.edu.np/" target="_blank"><i>Herald College Kathmandu</i></a>
+                    </div>
+                </div>
+                <br><br><br>
+                <h4 class="about-skills-header">My skills</h4>
+                <div class="about-skills-container">
+                    <div class="skill"><a href="https://www.python.org/" rel="noreferrer" target="_blank" >Python</a></div>
+                    <div class="skill"><a href="https://www.java.com/en/" rel="noreferrer" target="_blank">Java</a></div>
+                    <div class="skill"><a href="https://www.google.com/search?q=javascript" rel="noreferrer" target="_blank">Javascript</a></div>
+                    <div class="skill"><a href="https://www.google.com/search?q=PHP" rel="noreferrer" target="_blank">PHP</a></div>
+                    <div class="skill"><a href="https://www.google.com/search?q=C#" rel="noreferrer" target="_blank">C#</a></div>
+                    <div class="skill"><a href="https://www.google.com/search?q=C%2FC%2B%2B" rel="noreferrer" target="_blank">C/C++</a></div>
+                    <div class="skill"><a href="https://www.google.com/search?q=SQL" rel="noreferrer" target="_blank">SQL</a></div>
+                    <div class="skill"><a href="https://www.google.com/search?q=html" rel="noreferrer" target="_blank">HTML</a></div>
+                    <div class="skill"><a href="https://www.google.com/search?q=css" rel="noreferrer" target="_blank">CSS</a></div>
+                </div>
+                <div class="about-skills-container">
+                    <div class="skill"><a href="https://developer.android.com/" rel="noreferrer" target="_blank">Android Development</a></div>
+                    <div class="skill"><a href="https://www.google.com/search?q=web+development" rel="noreferrer" target="_blank">Web Development</a></div>
+                    <div class="skill"><a href="https://www.google.com/search?q=game+development" rel="noreferrer" target="_blank">Game Development</a></div>
+                    <br>
+                    <div class="skill"><a href="https://www.google.com/search?q=web+scrapping" rel="noreferrer" target="_blank">Web Scraping</a></div>
+                    <div class="skill"><a href="https://www.google.com/search?q=automation" rel="noreferrer" target="_blank">Automtation</a></div>
+                </div>
+                <br><br><br>
                 
-            </h1>
+               
+
+            </div>
+
         </div>
         <footer>
 
         </footer>
     </div>
     <script src="./js/index.js"></script>
+    <script>
+        let age = new Date().getFullYear()-2003;
+        document.getElementById("age-placeholder").textContent = ""+age;
+    </script>
 </body>
 
 </html>
