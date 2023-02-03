@@ -49,3 +49,15 @@
         opacity: 1;
     }
 }
+
+@keyframes particle-animation {
+    0%{
+        transform: translate(0,0vh);
+        opacity: 1;
+    }
+    100%{
+        transform: translate(0,101vh);
+        opacity: 0;
+    }
+}
+
