@@ -12,7 +12,6 @@ hamburger.addEventListener("click",e=>{
     }
 })
 page = document.getElementById("page")
-
 function randomizeParticle(particle){
     particle.style.bottom = "-5px"
     let randomSecs = Math.floor(Math.random()*20);
