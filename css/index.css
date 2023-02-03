@@ -72,7 +72,7 @@ nav .nav-item{
 }
 nav .nav-item:hover .nav-item-icon{
     
-    transform: rotate(15deg) scale(1.01,1.01);
+    transform: rotate(-15deg) scale(1.05,1.05);
 }
 nav .nav-item-icon{
     width: var(--nav-icon-width);
@@ -124,10 +124,10 @@ nav .nav-item-icon{
     box-shadow: 0px 0px 2px var(--nav-item-fg);
 }
 .current-page .nav-item-icon{
-    transform: rotate(15deg);
+    transform: rotate(-15deg);
 }
 .current-page:hover .nav-item-icon{
-    transform: rotate(15deg);
+    transform: rotate(-15deg);
 }
 .current-page:hover .nav-item-text{
     display: none;
