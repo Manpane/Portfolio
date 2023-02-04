@@ -19,6 +19,7 @@
 
     
     --content-title-bg : rgba(128, 128, 128, 0.35);
+    --content-title-bg-opaque : rgba(128, 128, 128, 0.85) ;
     --content-title-fg : rgb(255, 255, 255);
 
     --content-normal-font-size: 1rem;

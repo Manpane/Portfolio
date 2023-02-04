@@ -15,6 +15,9 @@ body{
     overflow-x: hidden;
     background-color: var(--theme-primary-color);
 }
+::-webkit-scrollbar {
+    display: none;
+}
 .button{
     background-color: var(--btn-bg);
     background-image: var(--btn-bg-image);
@@ -176,7 +179,7 @@ nav .nav-item-icon{
     padding-left: 10px;
     padding-right: 10px;
     font-size: var(--content-normal-font-size);
-    animation: fade-in 500ms ease;
+    animation: fade-in 2s ease;
     margin-top: calc(var(--nav-width));
 }
 .particle{
@@ -219,7 +222,7 @@ nav .nav-item-icon{
         margin-top: calc(var(--nav-width)*0.6);
     }
     .content-title{
-        width: 95.4vw;
+        width: 95.4vw; 
         left: 1vw;
     }
 }

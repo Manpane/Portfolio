@@ -61,3 +61,14 @@ window.addEventListener("resize",e=>{
         randomizeParticle(particle);
     }
 })
+
+window.addEventListener("scroll", (event) => {
+    let content_title = document.querySelector("h1.content-title");
+    if (this.scrollY!=0){
+        content_title.style.backgroundColor = "var(--content-title-bg-opaque)"
+    }else{
+        content_title.style.backgroundColor = "var(--content-title-bg)"
+    }
+});
+
+

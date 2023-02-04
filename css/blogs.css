@@ -1,0 +1,55 @@
+@import url("./root.css");
+#blogs-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80vw;
+    align-items: right;
+    justify-content: center;
+    width: 100%;
+}
+#blogs-container .blog{
+    text-decoration: none;
+    background-color: var(--content-title-bg);
+    border-radius: 12px;
+    padding: 30px;
+    color: antiquewhite;
+    max-width: 25vw;
+    margin: 1%;
+}
+.blog .date{
+    position: relative;
+    bottom: 0px;
+}
+#more-blogs-btn{
+    text-align: center;
+    color: bisque;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: 3px solid antiquewhite;
+    font-weight: bold;
+    width: fit-content;
+    margin-left: 50%;
+    transform: translate(-50%);
+    text-decoration: none;
+    color: antiquewhite;
+    transition: 500ms;
+}
+#more-blogs-btn:hover{
+    background-color:antiquewhite ;
+    color: rgba(0, 0, 0, 0.8);
+}
+@media only screen and (max-width:700px) {
+    #blogs-container{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #blogs-container .blog{
+        width: 70vw;
+        max-width: 100vw;
+        max-height: 50vh;
+        overflow-y: scroll;
+    }
+}
