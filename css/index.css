@@ -28,9 +28,9 @@ body{
 .content-title{
     position: fixed;
     top: 3px;
-    left: -1vw;
-    width: 102vw;
-    border-radius: 5px;
+    width: calc(100vw - var(--nav-width) - 4vw);
+    left: calc(var(--nav-width)+1vw);
+    border-radius: 10px;
     background-color: var(--content-title-bg);
     color: var(--content-title-fg);
     padding: 1.5%;
@@ -217,5 +217,9 @@ nav .nav-item-icon{
     }
     #page .content{
         margin-top: calc(var(--nav-width)*0.6);
+    }
+    .content-title{
+        width: 95.4vw;
+        left: 1vw;
     }
 }
