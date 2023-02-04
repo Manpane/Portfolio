@@ -71,6 +71,8 @@
     font-style: italic;
     color: rgb(118, 180, 232);
     text-decoration: none;
+    display: inline;
+    width: fit-content;
 }
 .education-item .institution::before{
     content: "at ";
@@ -78,4 +80,10 @@
     color: rgb(197, 197, 197);
     font-style: oblique;
     font-weight: bold;
+    margin-right: 10px;
 }
+.cv-download-btn{
+    text-decoration: none;
+}
+
+
