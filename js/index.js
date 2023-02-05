@@ -1,3 +1,4 @@
+page = document.getElementById("page")
 nav = document.querySelector("nav")
 hamburger = document.querySelector(".hamburger");
 
@@ -31,7 +32,7 @@ page.addEventListener("click",e=>{
         toggleHamburger();
     }
 })
-page = document.getElementById("page")
+
 function randomizeParticle(particle){
     particle.style.bottom = "-5px"
     let randomSecs = Math.floor(Math.random()*20);

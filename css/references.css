@@ -1,0 +1,20 @@
+.references h3{
+    border-bottom: 2px solid wheat;
+    border-left: 2px solid wheat;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: fit-content;
+    padding-right: 50px;
+}
+.references .ref{
+    margin: 20px;
+}
+.references .ref  a{
+    text-decoration: none;
+    color: rgb(219, 238, 255);
+}
+
+.references{
+    margin-top: 3%;
+    margin-left: 2%;
+}
