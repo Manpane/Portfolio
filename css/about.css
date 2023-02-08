@@ -1,3 +1,12 @@
+#profile-photo{
+    float: right;
+    border-radius: 50%;
+    width: 30vw;
+    z-index: 1;
+    position: relative;
+    right: 1%;
+
+}
 .about-feed{
     margin-bottom: 10px;
 }
@@ -101,5 +110,10 @@
     border-radius: 50px;
     background-color:rgb(200, 213, 255) ;
     color: rgb(0,0,0,3);
+}
+@media screen and (max-width:768px) {
+    #profile-photo{
+        display: none;
+    }
 }
 
