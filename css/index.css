@@ -55,6 +55,7 @@ footer{
     padding: 1.5%;
     text-align: center;
     margin: 0;
+    z-index: 2;
 }
 .description{
     border-radius: 10px;
