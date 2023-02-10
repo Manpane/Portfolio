@@ -1,12 +1,4 @@
-#profile-photo{
-    float: right;
-    border-radius: 50%;
-    width: 30vw;
-    z-index: 1;
-    position: relative;
-    right: 1%;
-
-}
+/* General Styles */
 .about-feed{
     margin-bottom: 10px;
 }
@@ -41,7 +33,9 @@
     cursor: pointer;
     color: rgb(255, 255, 255);
 }
+/* ---------------------------------------------- */
 
+/* Individual Skill buttons */
 .skill{
     font-size: 1.2em;
     padding: 15px;
@@ -65,13 +59,24 @@
 .skill:hover > a{
     color: black;
 }
+/* ---------------------------------------------- */
 
+/* The profile photo for desktop version */
+#profile-photo{
+    float: right;
+    border-radius: 50%;
+    width: 30vw;
+    z-index: 1;
+    position: relative;
+    right: 1%;
+}
+
+/* Individual Education in the education list */
 .education-item{
     margin-top: 20px;
     margin-left: 10px;
     margin-bottom: 5px;
 }
-
 .education-item .course{
     font-size: 1.5em
 }
@@ -91,6 +96,8 @@
     font-weight: bold;
     margin-right: 10px;
 }
+
+/* The cv button at the last */
 .cv-download-btn{
     font-size: 1.7em;
     margin: 0;
@@ -111,9 +118,14 @@
     background-color:rgb(200, 213, 255) ;
     color: rgb(0,0,0,3);
 }
+/* ---------------------------------------------- */
+
+
+/* Responsive from screen width of tablet. */
 @media screen and (max-width:768px) {
     #profile-photo{
         display: none;
     }
 }
+/* ---------------------------------------------- */
 
